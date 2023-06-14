@@ -1,0 +1,432 @@
+@media screen and (max-width: 576px) {
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        text-decoration: none;
+        color: grey;
+        /* border: solid 1px rgb(0, 255, 0); */
+    
+    }
+    li{
+        list-style: none;
+    }
+    
+    
+    
+    /* HEADER */
+    
+    #home {
+        display: inline;
+    }
+    #burger {
+        display: inline;
+        margin-left: 85%;
+    }
+    .flexnav ul{
+        display: none;
+        height: 20px;
+        width: 99%;
+        padding: 0.5% 0% 0.5% 0.5%;
+    
+        display: none;
+        /* position: absolute; */
+        position:fixed;
+        z-index: 1111;
+      
+    
+    }
+    .flexnav li{
+        display: none;
+        width: 7%;
+        margin: 0 1%;
+        color: grey;
+    }
+    #search {
+        display: none;
+        margin-left: 60%;
+        width: 1%;
+    }
+    .flexnav a {
+        display: none;
+        text-decoration: none;
+        color: grey;
+        margin: 0 1%;
+       }
+    
+    .imgnav {
+        background-image: url(../images/parallax1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        height: 45vh;
+    }
+    #titrelogo {
+        display: none;
+        padding-top:13%;
+        padding-left: 36%;
+    }
+    #titrelogo2 {
+    
+        display: inline-block;
+        padding-top:36%;
+        padding-left: 30%;
+    }
+    .imgnav  h1 {
+        text-align: center;
+        padding: 0 10px 0 15px;
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing : 10px;
+        color: white;
+        background-color: black;
+    }
+    
+    
+    .imgname i {
+    margin-right: 2%;
+    }
+    .imgname h1 {
+        padding-bottom: 5%;
+    }
+    .imgname img {
+        width: 100%;
+    }
+    .imgname {
+        width: 100%;
+        margin: 2% 5% 2% 5%;
+    }
+    
+    
+    /* ABOUT ME */
+    
+    
+    .about h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: center;
+        padding: 2% 0%;
+    }
+    .about h2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: center;
+        font-style: italic;
+        padding: 1% 0%; 
+    }
+    .about p {
+        line-height: 1.5rem;
+        display: flex;
+        width: 96%;
+        margin: 2% 2% 2% 2%;
+        padding-bottom: 2%;
+    
+    }
+    
+    
+    /* .barrenav i{
+       color: black;
+      
+    }
+    .barrenav ul{
+        
+        height: 20px;
+        width: 99.5%;
+        padding: 0.5% 0% 0.5% 0.5%;
+        justify-content: left;
+        display: flex;
+        background-color: #fff;
+       
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+        
+        
+    }
+    .barrenav li{
+        width: 8%;
+        margin: 0 1%;
+        
+    }
+    #search1 {
+        margin-left: 55%;
+        width: 1%;
+    }
+    .barrenav a {
+        text-decoration: none;
+        font-weight: 650;
+       color: black;
+        margin: 0 2%;
+       } */
+       
+    /* NAME */
+    
+    
+    .name {
+        display: flex;
+    
+    }
+    .imgname {
+        text-align: center ;
+    }
+    
+    .mynametxt {
+        display: none;
+        margin: 5% 5% 5% 0%;
+        line-height: 1.5rem;
+    }
+    
+    .goodat {
+        text-align: center;
+        font-size: 1rem;
+        margin: 2% 0%;
+    }
+    .photo, .wdesign, .photoshop {
+          padding: 1% 0%;
+          margin: 0% 2% 0% 2%;
+    }
+    .photo h1, .wdesign h1, .photoshop h1 {
+          padding: 1% 0%;
+          letter-spacing : 15px;
+    }
+    
+    
+    
+    /* barre de progression */
+    .progfull {
+        background-color: rgb(223, 223, 223);
+        height: 50px;
+    }
+    
+    .photoprog {
+        background-color: gray;
+        height: 50px;
+        width: 90%;
+    }
+    .txtprog {
+        color: white;
+        text-align: center;
+        margin-top: 1%;
+    }
+    .wdesignprog {
+        background-color: gray;
+        height: 50px;
+        width: 85%;
+    }
+    .photoshopprog {
+        background-color: gray;
+        height: 50px;
+        width: 75%;
+    }
+    
+    .bottom-header {
+        display: flex;
+        flex-direction: column;
+        height: 420px;
+        margin-top: 5%;
+        background-color: rgb(65, 61, 61);
+        padding-top: 2%;
+    }
+    #Partners {
+        margin-bottom: 5%;
+    }
+  
+    .bottom-header p {
+        color: white;
+        font-size: 1.3rem;
+        padding: 1% 0%;
+        text-align: center;
+        
+       
+        
+    }
+    .bottom-header div {
+        margin: 0% 9%;
+    }
+    
+    /* PORTFOLIO */
+    
+    .img-portfolio-titre {
+        background-image: url(../images/parallax2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        height: 35vh;
+    }
+    .img-portfolio-titre h1 {
+        text-align: center;
+        padding-top:25%;
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing : 10px;
+        color: white;
+    }
+    
+    
+    
+    
+    
+    .my-work h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: center;
+        padding: 5% 0%;
+    }
+    
+    .my-work p {
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: center;
+        font-style: italic;
+        padding: 1% 0%; 
+    }
+    
+    
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        height: 300vh;
+        
+       
+        margin: 0% 0% 0% 1%;
+        
+    }
+    .line img {
+        width: 98%;
+       
+    } 
+    .line {
+        display: flex;
+        flex-direction: column;
+        padding: 0% 0%;
+       
+    }
+    .line a {
+        margin: 0% 0%;
+    }
+    #loadmore {
+        margin: 0% 0% 0% 38%;
+        padding: 0.5% 1.5%;
+        font-size: 1.2rem;
+        font-weight: 500;
+        background-color: rgba(128, 128, 128, 0.473);
+        color: black;
+    }
+    
+    
+    /* CONTACT */
+    .contact-img-titre {
+        
+        background-image: url(../images/parallax3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        margin-top: 5%;
+        height: 45vh;
+    }
+    #titrecontact h1 {
+        text-align: center;
+        padding-top:30%;
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing : 10px;
+        color: white;
+    }
+    
+    
+    
+    
+    
+    .where-i-work h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: center;
+        padding: 2% 0%;
+    }
+    
+    .where-i-work p {
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: center;
+        font-style: italic;
+        padding: 1% 0%; 
+    }
+    
+    
+    .contact img {
+        width: 100%;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin: 2% 2%;
+    }
+    #img-localisation {
+        width: 100%;
+    }
+    #info-contact {
+        width: 100%;
+        padding-left: 0%;
+    }
+    #info-contact i {
+        padding-right: 1%;
+        margin-bottom: 2%;
+    }
+    #icone-local i{
+        padding-right: 2%;
+    }
+    .contact input {
+        padding: 1%;
+        margin: 2% 0%;
+    }
+    .contact button {
+        width: 35%;
+        padding: 1%;
+        margin-left: 63%;
+        background-color: black;
+        color: white;
+    }
+    
+    #Name {
+        width: 500px;
+    }
+    #Email {
+        margin-left: 0;
+        width: 500px;
+    }
+    #Message {
+        width: 500px;
+    }
+    #send {
+        color: white;
+    }
+    
+    
+    
+    /* FOOTER */
+    
+    
+    
+    footer {
+        background-color: gray;
+        text-align: center;
+        margin-top: 10%;
+        padding: 5% 0%;
+    }
+    footer button {
+        width: 30%;
+        padding: 0.5% 2%;
+    }
+    footer button i {
+    
+        margin-right: 5%;
+        color: gray;
+    }
+    footer i {
+        padding: 5% 0%;
+        color: white;
+    }
+    footer p, footer a {
+        margin-top: 5%;
+        color: white;
+    }
+}
